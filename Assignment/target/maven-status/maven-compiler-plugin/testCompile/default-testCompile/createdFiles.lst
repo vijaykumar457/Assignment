@@ -1,0 +1,8 @@
+com\assignment\automation\base\BaseClass.class
+com\assignment\automation\stepdefination\Assignment_stepdefination.class
+com\assignment\automation\managers\TestListener.class
+com\assignment\automation\managers\ExtentTestManager.class
+com\assignment\automation\managers\FileReaderManager.class
+com\assignment\automation\managers\ConfigFileReader.class
+com\assignment\automation\managers\ExtentManager.class
+com\assignment\automation\runner\Assignment_RunnerClass.class

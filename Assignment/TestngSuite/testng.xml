@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="testng" verbose="1" >
+
+<listeners>
+		<listener class-name="com.assignment.automation.managers.TestListener" />
+	</listeners>
+
+  <test name="Assignment" >
+    <classes>
+    
+       <class name="com.assignment.automation.stepdefination.Assignment_stepdefination" >
+         <methods>
+		<include name="navigate_to_shopping_site" />
+		<include name="scroll_to_Best_sellers" />
+		<include name="validate_Best_sellers_title" />
+		<include name="enter_the_search_item" />
+		<include name="validate_search_title" />
+		<include name="select_a_item" />
+		<include name="click_on_add_to_cart" />
+		<include name=" click_on_proceed_to_checkout" />
+		<include name="validate_your_shopping_cart_title" />
+		<include name="contact_us" />
+		<include name="validate_title" />
+		<include name="select_subject_heading" />
+		<include name="enter_Email_address" />
+		<include name="enter_order_refference" />
+		<include name="enter_Message" />
+		<include name="attach_file" />
+		<include name="click_on_send" />
+		<include name="validate_Success_message" />
+		<include name="click_on_sign_in" />
+		<include name="user_enter_email" />
+		<include name="click_on_create_account" />
+		<include name="validate_the_message" />
+      </methods>
+      </class>
+       
+      
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 49.943 s <<< FAILURE! - in TestSuite
+com.assignment.automation.stepdefination.Assignment_stepdefination.validate_your_shopping_cart_title  Time elapsed: 2.113 s  <<< FAILURE!
+java.lang.AssertionError: expected [Your shopping cart] but found [Search]
+	at com.assignment.automation.stepdefination.Assignment_stepdefination.validate_your_shopping_cart_title(Assignment_stepdefination.java:123)
+

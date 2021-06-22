@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignment_testng]">
+  <test thread-count="5" name="Assignment(failed)">
+    <classes>
+      <class name="com.assignment.automation.stepdefination.Assignment_stepdefination">
+        <methods>
+          <include name="enter_order_refference"/>
+          <include name="select_subject_heading"/>
+          <include name="validate_title"/>
+          <include name="click_on_send"/>
+          <include name="enter_Email_address"/>
+          <include name="user_enter_email"/>
+          <include name="contact_us"/>
+          <include name="validate_search_title"/>
+          <include name="validate_Best_sellers_title"/>
+          <include name="validate_Success_message"/>
+          <include name="enter_Message"/>
+          <include name="click_on_add_to_cart"/>
+          <include name="enter_the_search_item"/>
+          <include name="validate_the_message"/>
+          <include name="click_on_sign_in"/>
+          <include name="validate_your_shopping_cart_title"/>
+          <include name="attach_file"/>
+          <include name="select_a_item"/>
+          <include name="click_on_create_account"/>
+        </methods>
+      </class> <!-- com.assignment.automation.stepdefination.Assignment_stepdefination -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [Assignment_testng] -->

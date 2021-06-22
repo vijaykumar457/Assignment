@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testng]">
+  <listeners>
+    <listener class-name="com.assignment.automation.managers.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Assignment(failed)">
+    <classes>
+      <class name="com.assignment.automation.stepdefination.Assignment_stepdefination">
+        <methods>
+          <include name="validate_the_message"/>
+          <include name="validate_your_shopping_cart_title"/>
+        </methods>
+      </class> <!-- com.assignment.automation.stepdefination.Assignment_stepdefination -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [testng] -->
